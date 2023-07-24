@@ -1,0 +1,153 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1440px;
+}
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 122px;
+}
+
+.slide{
+    display: flex;
+}
+.slide div a img{
+    border-radius: 50px;
+}
+.items>div{
+    position: relative;
+}
+h1{
+    color: blue;
+}
+h2{
+    color: red;
+}
+.items>div>a>img{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+   margin: 20px 20px;
+   box-shadow: 0px 10px 25px 5px rgba(0,0,0,0.20);
+   transition: 0.5s;
+}
+.items>div>a>img:hover{
+
+   transform: scale(1.2);
+}
+.left{
+    position: relative;
+}
+.left>.fa-solid {
+    position: absolute;
+    top: 129px;
+    font-size: 48px;
+}
+.right{
+    position: relative;
+}
+
+.right>.fa-solid {
+    position: absolute;
+    right: 0;
+    bottom: 80px;
+    font-size: 48px;
+}
+span {
+    position: absolute;
+    right: 34%;
+    font-size: 18px;
+    font-weight: bold;
+    bottom: 13%;
+    color: rgb(2, 2, 2);
+    width: 53%;
+    display: none;
+    cursor: pointer;
+}
+ button {
+    cursor: pointer;
+    height: 36px;
+    width: 146px;
+    background-color: orangered;
+    color: white;
+    margin: 10px 20px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.buttons {
+    margin: 25px 0px;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+    transition: 1s;
+}
+input[type="search"] {
+    height: 10p;
+    height: 34px;
+    width: 510px;
+    margin-left: 373px;
+    padding-left: 20px;
+}
+ h1 {
+    text-align: center;
+    margin: 40px 0px;
+}
+.fa-6x{
+    text-align: center;
+    margin: 70px 0px;
+    color: aqua;
+    font-size: 50px;
+}
+.slide div a img {
+    border-radius: 50%;
+    height: 187px;
+    width: 187px;
+    margin: 0px 34px;
+}
+
+i{
+    cursor: pointer;
+}
+.slide{
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+.slide::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+h2 {
+    margin: 30px 0px;
+}
+.detail {
+    display: flex;
+    margin: 50px 200px;
+}
+.detail>img {
+    width: 310px;
+    height: 250px;
+}
+/* li {
+    list-style: none;
+    margin: 15px 40px;
+    font-size: 26px;
+    padding: 10px;
+} */
+.container2>h2{
+    color: green;
+    text-align: center;
+    font-size: 40px;
+}
+.views{
+    height: 20px;
+    width: 250px;
+    border: 1px solid;
+    cursor: pointer;
+    margin: 10px 122px;
+    color: rgb(0, 38, 255);
+}
